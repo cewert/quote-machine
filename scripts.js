@@ -34,8 +34,8 @@ function displayNewQuote() {
 function showAuthor(words) {
   // set delay based on number of words in quote
   console.log("words in quote: " + words);
-  console.log("author delay = " + (350 + (words * 100)) + " ms");
-  $("p#quote-author").delay(350 + (words * 100)).fadeIn(1000);
+  console.log("author delay = " + (200 + (words * 100)) + " ms");
+  $("p#quote-author").delay(200 + (words * 100)).fadeIn(1000);
 }
 
 // prepare and inject our twitter button url
